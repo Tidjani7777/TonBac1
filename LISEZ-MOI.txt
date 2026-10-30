@@ -1,0 +1,10 @@
+TonBac - mise en ligne gratuite (Netlify + Groq)
+
+1. Creez un compte gratuit sur console.groq.com et une cle API ("API Keys").
+2. Mettez ce dossier sur GitHub (depot prive ou public), puis sur Netlify : Add new site > Import from Git.
+   (Ou avec l'outil Netlify : npm i -g netlify-cli, netlify login, netlify deploy --prod)
+3. Dans Netlify : Site configuration > Environment variables > ajoutez GROQ_API_KEY = votre cle.
+4. Relancez un deploiement (Deploys > Trigger deploy).
+5. Ouvrez le site, onglet "Prof IA", posez une question.
+
+Les limites de l'offre gratuite de Groq sont partagees entre tous les utilisateurs du site.
