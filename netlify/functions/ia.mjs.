@@ -36,4 +36,4 @@ export default async (req) => {
   return new Response(amont.body, { headers: { "content-type": "text/event-stream", "cache-control": "no-store" } });
 };
 
-export const config = { path: "/api/ia" };
+export const config = { path: "/api/ia" }; 
